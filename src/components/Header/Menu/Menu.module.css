@@ -1,0 +1,27 @@
+.menuContainer {
+  padding: 0 10%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  color: #cf5c36;
+  text-align: center;
+}
+
+.menuItem {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menuItem:hover {
+  color: #efc88b;
+}
+
+.menuItemImg {
+  height: 80px;
+}

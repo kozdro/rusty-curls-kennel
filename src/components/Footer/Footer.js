@@ -1,6 +1,6 @@
 import style from "./Footer.module.css";
-import zkwp from "../assets/images/zkwp.png";
-import fci from "../assets/images/fci.png";
+import zkwp from "../../assets/images/zkwp.png";
+import fci from "../../assets/images/fci.png";
 
 function Footer() {
   return (

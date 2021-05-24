@@ -1,0 +1,35 @@
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+}
+
+.each-slide span {
+  width: 100%;
+  align-self: flex-end;
+  text-align: right;
+  padding: 20px 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.8rem;
+  opacity: 0.7;
+  color: #efc88b;
+}
+
+.slide-container h1 {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  z-index: 1;
+  color: #d3d5d7;
+}
+
+.slide-container h1 span {
+  color: #cf5c36;
+  font-size: 1.5em;
+}

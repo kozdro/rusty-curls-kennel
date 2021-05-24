@@ -23,6 +23,7 @@
 
 .menuItem:hover {
   color: #efc88b;
+  font-weight: bold;
 }
 
 .menuItemImg {

@@ -1,3 +1,11 @@
+.slide-container h1 {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  z-index: 1;
+  color: #d3d5d7;
+}
+
 .each-slide > div {
   display: flex;
   align-items: center;
@@ -19,17 +27,4 @@
   font-size: 0.8rem;
   opacity: 0.7;
   color: #efc88b;
-}
-
-.slide-container h1 {
-  position: absolute;
-  top: 15%;
-  left: 5%;
-  z-index: 1;
-  color: #d3d5d7;
-}
-
-.slide-container h1 span {
-  color: #cf5c36;
-  font-size: 1.5em;
 }

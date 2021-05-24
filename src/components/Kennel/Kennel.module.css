@@ -1,5 +1,29 @@
-.about {
+.about,
+.litters {
+  padding: 40px 15%;
 }
 
-.litters {
+.about_title,
+.litters_title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.about_subtitle,
+.litters_subtitle {
+  margin-top: 30px;
+}
+
+.about_title::after,
+.litters_title::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 3px;
+  margin: 0 auto;
+  background: #cf5c36;
+}
+
+.litters_title::after {
+  width: 250px;
 }

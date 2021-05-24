@@ -6,7 +6,21 @@ function Footer() {
   return (
     <footer className={style.footer}>
       <span className={style.footer_span}>
-        Rusty Curls &copy;{" "}
+        Rusty Curls &copy;
+        <br />
+        <div>
+          Logo by:
+          <a
+            className={style.footer_a}
+            style={{ paddingLeft: "5px" }}
+            href="https://www.instagram.com/mallilau/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-instagram" style={{ paddingRight: "5px" }}></i>
+            mallilau
+          </a>
+        </div>
         <span className={style.footer_span_copyright}>All rights reserved</span>
       </span>
       <div className={style.footer_social}>

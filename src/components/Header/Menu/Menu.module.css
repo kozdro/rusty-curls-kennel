@@ -1,19 +1,22 @@
 .menuContainer {
   padding: 0 10%;
+  height: 100%;
 }
 
 .menu {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   list-style: none;
   color: #cf5c36;
-  text-align: center;
+  height: 100%;
 }
 
 .menuItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
   width: 100%;
+  height: 100%;
   cursor: pointer;
   transition: 0.3s;
 }

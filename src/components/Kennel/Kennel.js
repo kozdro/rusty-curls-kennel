@@ -14,8 +14,10 @@ function Kennel() {
         </p>
       </section>
       <section className={style.litters}>
-        <h2 className={style.about_title}>Nasze mioty</h2>
-        <p className={style.about_subtitle}>Zapraszamy do zapoznania się z naszymi miotami.</p>
+        <h2 className={style.litters_title}>Nasze mioty</h2>
+        <p className={style.litters_subtitle}>
+          Zapraszamy do zapoznania się z naszymi miotami.
+        </p>
       </section>
     </>
   );

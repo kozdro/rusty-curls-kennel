@@ -1,5 +1,5 @@
 import style from "./Menu.module.css";
-import logo from "../../../assets/images/logo.png";
+import logo from "../../../assets/images/logo transparent.png";
 
 function Menu() {
   return (

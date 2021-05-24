@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/rusty-curls-kennel/static/css/main.87ceb1c8.chunk.css",
+    "main.js": "/rusty-curls-kennel/static/js/main.16d6d4eb.chunk.js",
+    "main.js.map": "/rusty-curls-kennel/static/js/main.16d6d4eb.chunk.js.map",
+    "runtime-main.js": "/rusty-curls-kennel/static/js/runtime-main.7da29c90.js",
+    "runtime-main.js.map": "/rusty-curls-kennel/static/js/runtime-main.7da29c90.js.map",
+    "static/js/2.58ec5da4.chunk.js": "/rusty-curls-kennel/static/js/2.58ec5da4.chunk.js",
+    "static/js/2.58ec5da4.chunk.js.map": "/rusty-curls-kennel/static/js/2.58ec5da4.chunk.js.map",
+    "static/js/3.d3bfb843.chunk.js": "/rusty-curls-kennel/static/js/3.d3bfb843.chunk.js",
+    "static/js/3.d3bfb843.chunk.js.map": "/rusty-curls-kennel/static/js/3.d3bfb843.chunk.js.map",
+    "index.html": "/rusty-curls-kennel/index.html",
+    "static/css/main.87ceb1c8.chunk.css.map": "/rusty-curls-kennel/static/css/main.87ceb1c8.chunk.css.map",
+    "static/js/2.58ec5da4.chunk.js.LICENSE.txt": "/rusty-curls-kennel/static/js/2.58ec5da4.chunk.js.LICENSE.txt",
+    "static/media/fci.8500b208.png": "/rusty-curls-kennel/static/media/fci.8500b208.png",
+    "static/media/logo transparent.e41a342f.png": "/rusty-curls-kennel/static/media/logo transparent.e41a342f.png",
+    "static/media/zkwp.2058a4b9.png": "/rusty-curls-kennel/static/media/zkwp.2058a4b9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7da29c90.js",
+    "static/js/2.58ec5da4.chunk.js",
+    "static/css/main.87ceb1c8.chunk.css",
+    "static/js/main.16d6d4eb.chunk.js"
+  ]
+}

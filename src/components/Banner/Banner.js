@@ -1,6 +1,6 @@
+import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import "./Banner.css";
-import { Slide } from "react-slideshow-image";
 
 const slideImages = [
   "https://i.ibb.co/dgC5rbv/IMG-0852.jpg",
@@ -15,24 +15,20 @@ function Logo() {
         <h1>
           Hodowla płowych pudli toy
           <br />
-          <span>Rusty Curls</span>
+          <strong style={{ color: "#cf5c36", fontSize: "1.5em" }}>
+            Rusty Curls
+          </strong>
         </h1>
         <Slide>
-          <div className="each-slide">
-            <div style={{ backgroundImage: `url(${slideImages[0]})` }}>
-              <span>Roy Rusty Curls</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{ backgroundImage: `url(${slideImages[1]})` }}>
-              <span>Roy Rusty Curls</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{ backgroundImage: `url(${slideImages[2]})` }}>
-              <span>Roy Rusty Curls</span>
-            </div>
-          </div>
+          {slideImages.map((img) => {
+            return (
+              <div className="each-slide" key={img}>
+                <div style={{ backgroundImage: `url(${img})` }}>
+                  <span>Roy Rusty Curls</span>
+                </div>
+              </div>
+            );
+          })}
         </Slide>
       </div>
     </>

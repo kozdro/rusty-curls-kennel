@@ -64,7 +64,7 @@ function Photoswipe() {
             {({ ref, open }) => (
               <img
                 style={{ ...smallItemStyles, gridArea: "1/2/2/3" }}
-                alt="on the show"
+                alt="with roy and rea"
                 ref={ref}
                 onClick={open}
                 src={img2_thumbnail}
@@ -80,7 +80,7 @@ function Photoswipe() {
             {({ ref, open }) => (
               <img
                 style={{ ...smallItemStyles, gridArea: "2/2/3/3" }}
-                alt="on the show"
+                alt="on training"
                 ref={ref}
                 onClick={open}
                 src={img4_thumbnail}
@@ -96,7 +96,7 @@ function Photoswipe() {
             {({ ref, open }) => (
               <img
                 style={{ ...smallItemStyles, gridArea: "1/3/2/4" }}
-                alt="on the show"
+                alt="rea and roy"
                 ref={ref}
                 onClick={open}
                 src={img5_thumbnail}

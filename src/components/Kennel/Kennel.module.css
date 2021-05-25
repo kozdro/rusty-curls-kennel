@@ -1,6 +1,7 @@
 .about,
 .litters {
-  padding: 40px 15%;
+  padding: 80px 20%;
+  color: #050517;
 }
 
 .about_title,
@@ -15,7 +16,9 @@
 }
 
 .about_title::after,
-.litters_title::after {
+.litters_title::after,
+.about_title::before,
+.litters_title::before {
   content: "";
   display: block;
   width: 150px;
@@ -26,4 +29,60 @@
 
 .litters_title::after {
   width: 250px;
+}
+
+.litters_title::before {
+  width: 250px;
+}
+
+.litters_container {
+  display: flex;
+  position: relative;
+  min-height: 800px;
+}
+
+.litters_content_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  position: relative;
+  right: 150px;
+  margin-top: 60px;
+  background: #efc88b;
+  box-shadow: 40px -15px #f4e3b2;
+  padding: 0 150px 0 50px;
+}
+
+.litters_subtitle {
+  font-size: 1.2rem;
+  margin-right: 250px;
+  width: 100%;
+}
+
+.litters_subtitle_btn {
+  margin-top: 30px;
+  background: #f4e3b2;
+  border: 2px solid #f4e3b2;
+  font-size: 1.3rem;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.litters_subtitle_btn:hover {
+  background: transparent;
+  border: 2px solid #cf5c36;
+  color: #cf5c36;
+}
+
+.litters_img_container {
+  position: relative;
+  right: 260px;
+  top: 150px;
+}
+
+.litters_img {
+  height: 600px;
+  border-radius: 10%;
+  box-shadow: 0 0 1em #050517;
 }

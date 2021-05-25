@@ -50,12 +50,8 @@ function Footer() {
         </div>
       </div>
       <div className={style.logos}>
-        <a href="http://www.zkwp.pl/" target="_blank" rel="noreferrer">
-          <img src={zkwp} alt="logo zkwp" className={style.logos_img} />
-        </a>
-        <a href="http://www.fci.be/" target="_blank" rel="noreferrer">
-          <img src={fci} alt="logo fci" className={style.logos_img} />
-        </a>
+        <img src={zkwp} alt="logo zkwp" className={style.logos_img} />
+        <img src={fci} alt="logo fci" className={style.logos_img} />
       </div>
     </footer>
   );

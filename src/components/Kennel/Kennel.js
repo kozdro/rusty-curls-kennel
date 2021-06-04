@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import style from "./Kennel.module.css";
 import puppies from "../../assets/images/litters/IMG_8260.JPG";
 import Photoswipe from "./Gallery/Photoswipe";
@@ -24,9 +25,9 @@ function Kennel() {
               Zapraszamy do zapoznania się
               <br />z naszymi miotami.
             </p>
-            <button className={style.litters_subtitle_btn}>
+            <Link to="/mioty" className={style.litters_subtitle_btn}>
               obecne oraz planowane mioty
-            </button>
+            </Link>
           </div>
           <div className={style.litters_img_container}>
             <img src={puppies} alt="puppies" className={style.litters_img} />

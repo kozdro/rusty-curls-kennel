@@ -14,7 +14,7 @@ function Menu() {
       <Link to="/wystawy" className={style.link}>
         Wystawy
       </Link>
-      <Link to="/">
+      <Link to="/rusty-curls-kennel">
         <img className={style.menuItemImg} src={logo} alt="logo hodowli" />
       </Link>
       <Link to="/galeria" className={style.link}>

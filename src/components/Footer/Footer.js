@@ -8,7 +8,7 @@ function Footer() {
       <span className={style.footer_span}>
         Rusty Curls &copy;
         <br />
-        <div>
+        <div style={{ fontSize: "0.8rem" }}>
           Logo by:
           <a
             className={style.footer_a}

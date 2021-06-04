@@ -1,20 +1,31 @@
+import { Link } from "react-router-dom";
 import style from "./Menu.module.css";
 import logo from "../../../assets/images/logos/logo transparent.png";
 
 function Menu() {
   return (
     <nav className={style.menuContainer}>
-      <ul className={style.menu}>
-        <li className={style.menuItem}>Hodowla</li>
-        <li className={style.menuItem}>Mioty</li>
-        <li className={style.menuItem}>Wystawy</li>
-        <li className={style.menuItem}>
-          <img className={style.menuItemImg} src={logo} alt="logo hodowli" />
-        </li>
-        <li className={style.menuItem}>Galeria</li>
-        <li className={style.menuItem}>ZKwP/FCI</li>
-        <li className={style.menuItem}>Kontakt</li>
-      </ul>
+      <Link to="/hodowla" className={style.link}>
+        Hodowla
+      </Link>
+      <Link to="/mioty" className={style.link}>
+        Mioty
+      </Link>
+      <Link to="/wystawy" className={style.link}>
+        Wystawy
+      </Link>
+      <Link to="/">
+        <img className={style.menuItemImg} src={logo} alt="logo hodowli" />
+      </Link>
+      <Link to="/galeria" className={style.link}>
+        Galeria
+      </Link>
+      <Link to="/zkwp-fci" className={style.link}>
+        ZKwP/FCI
+      </Link>
+      <Link to="/kontakt" className={style.link}>
+        Kontakt
+      </Link>
     </nav>
   );
 }

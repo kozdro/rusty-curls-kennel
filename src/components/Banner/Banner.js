@@ -1,14 +1,17 @@
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import "./Banner.css";
-
-const slideImages = [
-  "https://i.ibb.co/dgC5rbv/IMG-0852.jpg",
-  "https://i.ibb.co/b7ymBPp/IMG-0853.jpg",
-  "https://i.ibb.co/NtHqwcp/IMG-0863.jpg",
-];
+import roy1 from "../../assets/images/slider/IMG_0852.JPG";
+import roy2 from "../../assets/images/slider/IMG_0853.JPG";
+import roy3 from "../../assets/images/slider/IMG_0863.JPG";
+import rea1 from "../../assets/images/slider/IMG_2751.JPG";
+import rea2 from "../../assets/images/slider/IMG_4010.JPG";
+import rea3 from "../../assets/images/slider/IMG_5957.jpeg";
+import rea4 from "../../assets/images/slider/IMG_6051.jpeg";
 
 function Logo() {
+  const slideImages = [rea1, rea2, roy1, roy2, rea3, rea4, roy3];
+
   return (
     <>
       <div className="slide-container">
@@ -20,15 +23,13 @@ function Logo() {
           </strong>
         </h1>
         <Slide>
-          {slideImages.map((img) => {
-            return (
-              <div className="each-slide" key={img}>
-                <div style={{ backgroundImage: `url(${img})` }}>
-                  <span>Roy Rusty Curls</span>
-                </div>
+          {slideImages.map((img) => (
+            <div className="each-slide" key={img}>
+              <div style={{ backgroundImage: `url(${img})` }}>
+                <span>Roy Rusty Curls</span>
               </div>
-            );
-          })}
+            </div>
+          ))}
         </Slide>
       </div>
     </>

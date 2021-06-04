@@ -14,33 +14,13 @@ import "./App.css";
 function App() {
   const content = (
     <>
-      <Route exact path="/">
-        <Kennel />
-      </Route>
-
-      <Route path="/hodowla">
-        <About />
-      </Route>
-
-      <Route path="/mioty">
-        <Litters />
-      </Route>
-
-      <Route path="/wystawy">
-        <Shows />
-      </Route>
-
-      <Route path="/galeria">
-        <Gallery />
-      </Route>
-
-      <Route path="/zkwp-fci">
-        <Club />
-      </Route>
-
-      <Route path="/kontakt">
-        <Contact />
-      </Route>
+      <Route exact path="/" component={Kennel} />
+      <Route path="/hodowla" component={About} />
+      <Route path="/mioty" component={Litters} />
+      <Route path="/wystawy" component={Shows} />
+      <Route path="/galeria" component={Gallery} />
+      <Route path="/zkwp-fci" component={Club} />
+      <Route path="/kontakt" component={Contact} />
     </>
   );
 

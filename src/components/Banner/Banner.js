@@ -9,8 +9,16 @@ import rea2 from "../../assets/images/slider/IMG_4010.JPG";
 import rea3 from "../../assets/images/slider/IMG_5957.jpeg";
 import rea4 from "../../assets/images/slider/IMG_6051.jpeg";
 
-function Logo() {
-  const slideImages = [rea1, rea2, roy1, roy2, rea3, rea4, roy3];
+function Banner() {
+  const slideImages = [
+    { img: rea1, dog: "REA" },
+    { img: rea2, dog: "REA" },
+    { img: roy1, dog: "ROY" },
+    { img: roy2, dog: "ROY" },
+    { img: rea3, dog: "REA" },
+    { img: rea4, dog: "REA" },
+    { img: roy3, dog: "ROY" },
+  ];
 
   return (
     <>
@@ -23,10 +31,10 @@ function Logo() {
           </strong>
         </h1>
         <Slide>
-          {slideImages.map((img) => (
+          {slideImages.map(({ img, dog }) => (
             <div className="each-slide" key={img}>
               <div style={{ backgroundImage: `url(${img})` }}>
-                <span>Roy Rusty Curls</span>
+                <span>{dog} Rusty Curls</span>
               </div>
             </div>
           ))}
@@ -36,4 +44,4 @@ function Logo() {
   );
 }
 
-export default Logo;
+export default Banner;

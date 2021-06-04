@@ -1,27 +1,18 @@
 .menuContainer {
-  padding: 0 10%;
-  height: 100%;
-}
-
-.menu {
-  display: flex;
-  list-style: none;
-  color: #cf5c36;
-  height: 100%;
-}
-
-.menuItem {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: 0 20px;
-  width: 100%;
+  justify-content: space-between;
   height: 100%;
-  cursor: pointer;
+  padding: 0 10%;
+}
+
+.link {
+  color: #cf5c36;
+  text-decoration: none;
   transition: 0.3s;
 }
 
-.menuItem:hover {
+.link:hover {
   color: #efc88b;
   font-weight: bold;
 }

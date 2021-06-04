@@ -67,6 +67,8 @@
   font-size: 1.3rem;
   padding: 10px;
   cursor: pointer;
+  text-decoration: none;
+  color: #050517;
 }
 
 .litters_subtitle_btn:hover {

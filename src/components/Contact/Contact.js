@@ -1,9 +1,23 @@
-import style from "./Contact.module.css";
+import styled from "styled-components";
 
 function Contact() {
+  const Title = styled.h2`
+    text-align: center;
+    font-size: 2rem;
+    &:before,
+    &:after {
+      content: "";
+      display: block;
+      width: 200px;
+      height: 3px;
+      margin: 0 auto;
+      background: #cf5c36;
+    }
+  `;
+
   return (
-    <div className={style.contact}>
-      <h2 className={style.contact_title}>Kontakt</h2>
+    <div style={{ padding: "80px 20%" }}>
+      <Title>Kontakt</Title>
     </div>
   );
 }

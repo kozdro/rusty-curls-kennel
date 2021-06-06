@@ -119,7 +119,7 @@ const ContactForm = () => {
           onChange={updateInput}
           value={formData.message || ""}
         ></TextArea>
-        <Button type="submit">Submit</Button>
+        <Button type="submit">Wyślij</Button>
       </Form>
     </>
   );

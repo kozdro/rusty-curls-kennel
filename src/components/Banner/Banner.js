@@ -21,26 +21,24 @@ function Banner() {
   ];
 
   return (
-    <>
-      <div className="slide-container">
-        <h1>
-          Hodowla płowych pudli toy
-          <br />
-          <strong style={{ color: "#cf5c36", fontSize: "1.5em" }}>
-            Rusty Curls
-          </strong>
-        </h1>
-        <Slide>
-          {slideImages.map(({ img, dog }) => (
-            <div className="each-slide" key={img}>
-              <div style={{ backgroundImage: `url(${img})` }}>
-                <span>{dog} Rusty Curls</span>
-              </div>
+    <div className="slide-container">
+      <h1>
+        Hodowla płowych pudli toy
+        <br />
+        <strong style={{ color: "#cf5c36", fontSize: "1.5em" }}>
+          Rusty Curls
+        </strong>
+      </h1>
+      <Slide>
+        {slideImages.map(({ img, dog }) => (
+          <div className="each-slide" key={img}>
+            <div style={{ backgroundImage: `url(${img})` }}>
+              <span>{dog} Rusty Curls</span>
             </div>
-          ))}
-        </Slide>
-      </div>
-    </>
+          </div>
+        ))}
+      </Slide>
+    </div>
   );
 }
 

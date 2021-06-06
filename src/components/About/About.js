@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
 function About() {
-  const Div = styled.div`
-    padding: 80px 20%;
-  `;
-
   const Title = styled.h2`
     text-align: center;
     font-size: 2rem;
@@ -20,9 +16,10 @@ function About() {
   `;
 
   return (
-    <Div>
-      <Title>O hodowli i o nas</Title>
-    </Div>
+    <div style={{ padding: "80px 20%" }}>
+      <Title>O nas i o hodowli</Title>
+      <p></p>
+    </div>
   );
 }
 

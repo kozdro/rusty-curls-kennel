@@ -1,3 +1,4 @@
+import ContactForm from "./ContactForm/ContactForm";
 import styled from "styled-components";
 
 function Contact() {
@@ -18,6 +19,7 @@ function Contact() {
   return (
     <div style={{ padding: "80px 20%" }}>
       <Title>Kontakt</Title>
+      <ContactForm />
     </div>
   );
 }

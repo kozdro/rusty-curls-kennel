@@ -14,7 +14,7 @@ import "./App.css";
 function App() {
   const content = (
     <>
-      <Route path="/rusty-curls-kennel" component={Kennel} />
+      <Route exact path="/" component={Kennel} />
       <Route path="/hodowla" component={About} />
       <Route path="/mioty" component={Litters} />
       <Route path="/wystawy" component={Shows} />

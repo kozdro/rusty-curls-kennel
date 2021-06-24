@@ -1,24 +1,7 @@
 import "photoswipe/dist/photoswipe.css";
 import "photoswipe/dist/default-skin/default-skin.css";
 import { Gallery, Item } from "react-photoswipe-gallery";
-import img1 from "../../../assets/images/gallery-litters/litter X/IMG_0002.JPEG";
-import img2 from "../../../assets/images/gallery-litters/litter X/IMG_0048.JPEG";
-import img3 from "../../../assets/images/gallery-litters/litter X/IMG_0099.JPEG";
-import img4 from "../../../assets/images/gallery-litters/litter X/IMG_0179.JPEG";
-import img5 from "../../../assets/images/gallery-litters/litter X/IMG_0234.JPEG";
-import img6 from "../../../assets/images/gallery-litters/litter X/IMG_0242.JPEG";
-import img7 from "../../../assets/images/gallery-litters/litter X/IMG_0261.JPEG";
-import img8 from "../../../assets/images/gallery-litters/litter X/IMG_0264.JPEG";
-import img9 from "../../../assets/images/gallery-litters/litter X/IMG_9991.JPEG";
-import img1_thumbnail from "../../../assets/images/gallery-litters/litter X/IMG_0002-thumbnail.jpg";
-import img2_thumbnail from "../../../assets/images/gallery-litters/litter X/IMG_0048-thumbnail.jpg";
-import img3_thumbnail from "../../../assets/images/gallery-litters/litter X/IMG_0099-thumbnail.jpg";
-import img4_thumbnail from "../../../assets/images/gallery-litters/litter X/IMG_0179-thumbnail.jpg";
-import img5_thumbnail from "../../../assets/images/gallery-litters/litter X/IMG_0234-thumbnail.jpg";
-import img6_thumbnail from "../../../assets/images/gallery-litters/litter X/IMG_0242-thumbnail.jpg";
-import img7_thumbnail from "../../../assets/images/gallery-litters/litter X/IMG_0261-thumbnail.jpg";
-import img8_thumbnail from "../../../assets/images/gallery-litters/litter X/IMG_0264-thumbnail.jpg";
-import img9_thumbnail from "../../../assets/images/gallery-litters/litter X/IMG_9991-thumbnail.jpg";
+import img from "./imagesX";
 
 function PhotoswipeX() {
   const smallItemStyles = {
@@ -49,8 +32,8 @@ function PhotoswipeX() {
           }}
         >
           <Item
-            original={img7}
-            thumbnail={img7_thumbnail}
+            original={img.img16}
+            thumbnail={img.img16_thumbnail}
             width="768"
             height="1024"
           >
@@ -60,13 +43,13 @@ function PhotoswipeX() {
                 alt="after birth"
                 ref={ref}
                 onClick={open}
-                src={img7_thumbnail}
+                src={img.img16_thumbnail}
               />
             )}
           </Item>
           <Item
-            original={img8}
-            thumbnail={img8_thumbnail}
+            original={img.img17}
+            thumbnail={img.img17_thumbnail}
             width="768"
             height="1024"
           >
@@ -76,13 +59,13 @@ function PhotoswipeX() {
                 alt="puppies with rea"
                 ref={ref}
                 onClick={open}
-                src={img8_thumbnail}
+                src={img.img17_thumbnail}
               />
             )}
           </Item>
           <Item
-            original={img9}
-            thumbnail={img9_thumbnail}
+            original={img.img18}
+            thumbnail={img.img18_thumbnail}
             width="768"
             height="1024"
           >
@@ -92,13 +75,13 @@ function PhotoswipeX() {
                 alt="puppy"
                 ref={ref}
                 onClick={open}
-                src={img9_thumbnail}
+                src={img.img18_thumbnail}
               />
             )}
           </Item>
           <Item
-            original={img4}
-            thumbnail={img4_thumbnail}
+            original={img.img13}
+            thumbnail={img.img13_thumbnail}
             width="768"
             height="1024"
           >
@@ -108,13 +91,13 @@ function PhotoswipeX() {
                 alt="roy"
                 ref={ref}
                 onClick={open}
-                src={img4_thumbnail}
+                src={img.img13_thumbnail}
               />
             )}
           </Item>
           <Item
-            original={img2}
-            thumbnail={img2_thumbnail}
+            original={img.img11}
+            thumbnail={img.img11_thumbnail}
             width="768"
             height="1024"
           >
@@ -124,13 +107,13 @@ function PhotoswipeX() {
                 alt="roy and leo"
                 ref={ref}
                 onClick={open}
-                src={img2_thumbnail}
+                src={img.img11_thumbnail}
               />
             )}
           </Item>
           <Item
-            original={img3}
-            thumbnail={img3_thumbnail}
+            original={img.img12}
+            thumbnail={img.img12_thumbnail}
             width="768"
             height="1024"
           >
@@ -140,13 +123,13 @@ function PhotoswipeX() {
                 alt="leo"
                 ref={ref}
                 onClick={open}
-                src={img3_thumbnail}
+                src={img.img12_thumbnail}
               />
             )}
           </Item>
           <Item
-            original={img1}
-            thumbnail={img1_thumbnail}
+            original={img.img10}
+            thumbnail={img.img10_thumbnail}
             width="768"
             height="1024"
           >
@@ -156,13 +139,13 @@ function PhotoswipeX() {
                 alt="leo in a tent"
                 ref={ref}
                 onClick={open}
-                src={img1_thumbnail}
+                src={img.img10_thumbnail}
               />
             )}
           </Item>
           <Item
-            original={img5}
-            thumbnail={img5_thumbnail}
+            original={img.img14}
+            thumbnail={img.img14_thumbnail}
             width="768"
             height="1024"
           >
@@ -172,13 +155,13 @@ function PhotoswipeX() {
                 alt="roy"
                 ref={ref}
                 onClick={open}
-                src={img5_thumbnail}
+                src={img.img14_thumbnail}
               />
             )}
           </Item>
           <Item
-            original={img6}
-            thumbnail={img6_thumbnail}
+            original={img.img15}
+            thumbnail={img.img15_thumbnail}
             width="768"
             height="1024"
           >
@@ -188,7 +171,7 @@ function PhotoswipeX() {
                 alt="leo on hands"
                 ref={ref}
                 onClick={open}
-                src={img6_thumbnail}
+                src={img.img15_thumbnail}
               />
             )}
           </Item>

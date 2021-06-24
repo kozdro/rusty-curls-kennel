@@ -8,14 +8,18 @@ import rea1 from "../../assets/images/slider/IMG_2751.JPG";
 import rea2 from "../../assets/images/slider/IMG_4010.JPG";
 import rea3 from "../../assets/images/slider/IMG_5957.jpeg";
 import rea4 from "../../assets/images/slider/IMG_6051.jpeg";
+import leo1 from "../../assets/images/slider/image3.jpeg";
+import leo2 from "../../assets/images/slider/image5.jpeg";
 
 function Banner() {
   const slideImages = [
-    { img: rea1, dog: "REA" },
     { img: rea2, dog: "REA" },
+    { img: rea1, dog: "REA" },
     { img: roy1, dog: "ROY" },
+    { img: leo1, dog: "RAFAEL LEONARDO" },
     { img: roy2, dog: "ROY" },
     { img: rea3, dog: "REA" },
+    { img: leo2, dog: "RAFAEL LEONARDO" },
     { img: rea4, dog: "REA" },
     { img: roy3, dog: "ROY" },
   ];

@@ -51,6 +51,7 @@
   margin-top: 60px;
   background: #efc88b;
   box-shadow: 40px -15px #f4e3b2;
+  border-radius: 10%;
   padding: 0 150px 0 50px;
 }
 
@@ -69,6 +70,7 @@
   cursor: pointer;
   text-decoration: none;
   color: #050517;
+  transition: 0.3s;
 }
 
 .litters_subtitle_btn:hover {

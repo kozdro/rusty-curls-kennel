@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Axios, db } from "../../../firebase/firebaseConfig";
-import styled from "styled-components";
+import Styles from "./Styles";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({});
@@ -12,8 +12,8 @@ const ContactForm = () => {
     });
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
     sendEmail();
     setFormData({
       name: "",
@@ -41,87 +41,33 @@ const ContactForm = () => {
       });
   };
 
-  const Form = styled.form`
-    display: table;
-    margin: 40px auto;
-  `;
-
-  const Input = styled.input`
-    font: 18px "Nunito", sans-serif;
-    box-sizing: border-box;
-    display: block;
-    border: none;
-    padding: 20px;
-    width: 300px;
-    margin-bottom: 20px;
-    outline: none;
-    transition: all 0.3s ease-in-out;
-    &:placeholder {
-      transition: all 0.2s ease-in-out;
-      color: #999;
-      font: 18px "Nunito", sans-serif;
-    }
-
-    &:focus,
-    &.populated {
-      padding-top: 28px;
-      padding-bottom: 12px;
-
-      &:placeholder {
-        color: transparent;
-      }
-    }
-  `;
-
-  const TextArea = styled(Input)`
-    height: 200px;
-  `;
-
-  const Button = styled.button`
-    transition: all 0.3s ease-in-out;
-    font: 18px "Nunito", sans-serif;
-    border: none;
-    background: #cf5c36;
-    color: #f4e3b2;
-    padding: 20px;
-    width: 100%;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    &:hover {
-      background: #f4e3b2;
-      color: #cf5c36;
-      cursor: pointer;
-    }
-  `;
-
   return (
-    <>
-      <Form onSubmit={handleSubmit}>
-        <Input
+    <Styles>
+      <form onSubmit={handleSubmit}>
+        <input
           type="text"
           name="name"
           placeholder="Imię i nazwisko"
           onChange={updateInput}
           value={formData.name || ""}
         />
-        <Input
+        <input
           type="email"
           name="email"
           placeholder="E-Mail"
           onChange={updateInput}
           value={formData.email || ""}
         />
-        <TextArea
-          as="textarea"
+        <textarea
           type="text"
           name="message"
           placeholder="Wiadomość"
           onChange={updateInput}
           value={formData.message || ""}
-        ></TextArea>
-        <Button type="submit">Wyślij</Button>
-      </Form>
-    </>
+        ></textarea>
+        <button type="submit">Wyślij</button>
+      </form>
+    </Styles>
   );
 };
 

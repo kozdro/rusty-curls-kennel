@@ -9,6 +9,7 @@ import Gallery from "./components/Gallery/Gallery";
 import Club from "./components/Club/Club";
 import Contact from "./components/Contact/Contact";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 import "./App.css";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <Banner />
       {content}

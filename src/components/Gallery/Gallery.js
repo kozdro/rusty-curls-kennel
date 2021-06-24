@@ -1,9 +1,11 @@
 import styled from "styled-components";
+import CarouselFn from "./Carousel/Carousel";
 
 function Gallery() {
   const Title = styled.h2`
     text-align: center;
     font-size: 2rem;
+    margin-bottom: 30px;
     &:before,
     &:after {
       content: "";
@@ -18,6 +20,7 @@ function Gallery() {
   return (
     <div style={{ padding: "80px 20%" }}>
       <Title>Galeria</Title>
+      <CarouselFn />
     </div>
   );
 }
